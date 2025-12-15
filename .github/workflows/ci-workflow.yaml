@@ -91,7 +91,7 @@ jobs:
 
           registry: ghcr.io
 
-          username: "yourGitHubUsername"
+          username: "felixcdr"
 
           password: ${{ secrets.PAT }}
 
@@ -107,4 +107,4 @@ jobs:
 
           push: true
 
-          tags: ghcr.io/yourGitHubUsername/tos:latest
+          tags: ghcr.io/felixcdr/tos:latest
